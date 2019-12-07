@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="WagonWheelView">
+        <attr name="fours_color" format="color"/>
+        <attr name="sixes_color" format="color"/>
+        <attr name="runs_color" format="color"/>
+        <attr name="ground_color" format="color"/>
+        <attr name="boundary_color" format="color"/>
+        <attr name="pitch_color" format="color"/>
+
+    </declare-styleable>
+</resources>

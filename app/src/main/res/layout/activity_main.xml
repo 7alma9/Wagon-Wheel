@@ -6,13 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <com.a7alma9.wagonwheel.WagonWheelView
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/wagonWheel"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#FFEB3B"
+        android:padding="30dp"
+
+        app:boundary_color="@color/colorBoundary"
+        app:fours_color="@color/colorFours"
+        app:ground_color="@color/colorGround"
+        app:pitch_color="@color/colorPitch"
+        app:runs_color="@color/colorRuns"
+        app:sixes_color="@color/colorSixes"
+
+        />
 
 </android.support.constraint.ConstraintLayout>
