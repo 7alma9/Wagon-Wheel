@@ -20,4 +20,4 @@ dependencies {
  ```
 
 # Screenshot
-![Screen shot](https://user-images.githubusercontent.com/53568008/70379876-7e971800-1954-11ea-9dfd-01989149f147.png)
+![Screen shot](https://github.com/7alma9/Wagon-Wheel/blob/master/screenshot/device-2019-12-08-004831.png)
