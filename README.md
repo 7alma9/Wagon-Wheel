@@ -15,7 +15,7 @@ allprojects {
 Add the dependency
 ```
 dependencies {
-	        implementation 'com.github.7alma9:Wagon-Wheel:Tag'
+	        implementation 'com.github.7alma9:Wagon-Wheel:0.0.1'
 	}
  ```
 
